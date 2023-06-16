@@ -8,6 +8,7 @@
 // }   
 // positiveSum([1, 2, 33, 4, 5])
 
+
 // #Kata N2. Reversed Strings
 
 // function solution(str){
@@ -15,12 +16,13 @@
 //   }
 //   console.log(solution('world'));
 
-  // #Kata N3. Beginner - Reduce but Grow
 
-  function grow(x){
-    let sum = 1;
-    for (let i = 0; i < x.length; i++) sum = sum * x[i]
-    console.log(sum);
-  }
-  grow([1, 2, 3])
+// #Kata N3. Beginner - Reduce but Grow
+
+//   function grow(x){
+//     let sum = 1;
+//     for (let i = 0; i < x.length; i++) sum *= x[i]
+//     console.log(sum);
+//   }
+//   grow([1, 2, 3])
 
