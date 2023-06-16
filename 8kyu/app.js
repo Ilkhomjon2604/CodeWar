@@ -31,3 +31,10 @@
 //     return (bool)? console.log('Yes') : console.log('No');
 //   }
 //   boolToWord(true)
+
+// #Kata N5. Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    // return(distanceToPump / mpg <= fuelLeft)? true : false
+    console.log((distanceToPump / mpg <= fuelLeft)? true : false);
+  };
+  zeroFuel(50, 25, 2)
