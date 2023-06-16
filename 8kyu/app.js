@@ -7,3 +7,9 @@ function positiveSum(arr) {
 }   
 positiveSum([1, 2, 33, 4, 5])
 
+// #Kata N2. Reversed Strings
+
+function solution(str){
+    return str.split('').reverse().join('')
+  }
+  console.log(solution('world'));
