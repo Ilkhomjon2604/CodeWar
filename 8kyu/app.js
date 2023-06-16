@@ -26,3 +26,8 @@
 //   }
 //   grow([1, 2, 3])
 
+// #Kata N4 .Convert boolean values to strings 'Yes' or 'No'.
+// function boolToWord( bool ){
+//     return (bool)? console.log('Yes') : console.log('No');
+//   }
+//   boolToWord(true)
