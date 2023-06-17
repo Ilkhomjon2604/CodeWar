@@ -41,12 +41,23 @@
 
 
 // #Kata N6. Vowel Count
-function getCount(str) {
-    let count = 0;
-    for (let i = 0; i< str.length; i++){
-        (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u' ) ? count ++ : count  
-    }
-    console.log(count);
-  }
+// function getCount(str) {
+//     let count = 0;
+//     for (let i = 0; i< str.length; i++)
+//         (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u' ) ? count ++ : count  
+//     console.log(count);
+//   }
+// getCount("abracadabra")
+// #Kata N7. Invert values
 
-getCount("abracadabra")
+function invert(array) {
+    let newArray = [];
+    for (i = 0; i < array.length; i++) 
+
+      (array[i] >= 0)? newArray.push(array[i] * -1) : newArray.push(Math.abs(array[i]))
+  
+    
+    console.log(newArray);
+
+}
+invert([1, 2, -3, -4, -5])
