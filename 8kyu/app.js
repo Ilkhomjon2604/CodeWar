@@ -62,13 +62,13 @@
 
 // #Kata N7. century From Year
 
-function Century(year) {
-    let count = 0;
-    for (let i = 0; i < year; i += 100) count++
-    console.log(count);
-}
+// function Century(year) {
+//     let count = 0;
+//     for (let i = 0; i < year; i += 100) count++
+//     console.log(count);
+// }
 
-Century(2001)
+// Century(2001)
 
 
 // let cent = 0;
