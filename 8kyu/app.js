@@ -33,8 +33,20 @@
 //   boolToWord(true)
 
 // #Kata N5. Will you make it?
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    // return(distanceToPump / mpg <= fuelLeft)? true : false
-    console.log((distanceToPump / mpg <= fuelLeft)? true : false);
-  };
-  zeroFuel(50, 25, 2)
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     // return(distanceToPump / mpg <= fuelLeft)? true : false
+//     console.log((distanceToPump / mpg <= fuelLeft)? true : false);
+//   };
+//   zeroFuel(50, 25, 2)
+
+
+// #Kata N6. Vowel Count
+function getCount(str) {
+    let count = 0;
+    for (let i = 0; i< str.length; i++){
+        (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u' ) ? count ++ : count  
+    }
+    console.log(count);
+  }
+
+getCount("abracadabra")
