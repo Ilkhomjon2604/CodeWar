@@ -80,9 +80,17 @@
 //   summation(2)
 
 
-// #Kata N9. Calculate average
+// #Kata N10. Calculate average
 function findAverage(array) {
-  // your code here
-  return 0;
+  let count = 0;
+  if(array.length){
+    for(let i = 0; i<array.length; i++){
+      count+= array[i]
+    }
+  }else {
+    return 0
+  }
+  
+  console.log(count / array.length) ;
 }
-findAverage([1,2,3,4])
+findAverage([])

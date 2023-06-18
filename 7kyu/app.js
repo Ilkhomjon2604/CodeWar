@@ -7,7 +7,7 @@
 // }
 // console.log(newStr * 1);
 
-// / #Kata N1. Credit Card mask.
+// / #Kata N2. Credit Card mask.
 // let str = 'Assalomu aleykum';
 // let text = ''
 
@@ -17,15 +17,15 @@
 
 // console.log(text + str.slice(-4));
 
-// #Kata N1. Highest and Lowest
-function highAndLow(numbers){
-    newArr = numbers.split(' ')
+// #Kata N3. Highest and Lowest
+// function highAndLow(numbers){
+//     newArr = numbers.split(' ')
  
     
-    for (let i = 0; i < newArr.length; i++) {
-        console.log(newArr[i]);
-    }
-    console.log(Math.max(...newArr));   
-    console.log(Math.min(...newArr)); 
-  }
-  highAndLow('8 3 -5 42')
+//     for (let i = 0; i < newArr.length; i++) {
+//         console.log(newArr[i]);
+//     }
+//     console.log(Math.max(...newArr));   
+//     console.log(Math.min(...newArr)); 
+//   }
+//   highAndLow('8 3 -5 42')
