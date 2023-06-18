@@ -72,9 +72,9 @@
 
 
 // #Kata N7. Grasshopper - Summation
-var summation = function (num) {
-    let sum = 0;
-    for (let i = 1; i<=num; i++)  sum+= i
-    console.log(sum);
-  }
-  summation(2)
+// var summation = function (num) {
+//     let sum = 0;
+//     for (let i = 1; i<=num; i++)  sum+= i
+//     console.log(sum);
+//   }
+//   summation(2)
