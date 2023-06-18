@@ -7,12 +7,11 @@
 // }
 // console.log(newStr * 1);
 
-let str = 'Assalomu aleykum';
-let text = ''
+// let str = 'Assalomu aleykum';
+// let text = ''
 
+// if (str.length > 4){
+//     for (let i = 0; i< str.length - 4; i++) text +=  '#'
+// }
 
-if (str.length > 4){
-    for (let i = 0; i< str.length - 4; i++) text +=  '#'
-}
-
-console.log(text + str.slice(-4));
+// console.log(text + str.slice(-4));
