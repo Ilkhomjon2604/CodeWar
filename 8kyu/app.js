@@ -60,7 +60,7 @@
 // invert([1, 2, -3, -4, -5])
 
 
-// #Kata N7. century From Year
+// #Kata N8. century From Year
 
 // function Century(year) {
 //     let count = 0;
@@ -71,10 +71,18 @@
 // Century(2001)
 
 
-// #Kata N7. Grasshopper - Summation
+// #Kata N9. Grasshopper - Summation
 // var summation = function (num) {
 //     let sum = 0;
 //     for (let i = 1; i<=num; i++)  sum+= i
 //     console.log(sum);
 //   }
 //   summation(2)
+
+
+// #Kata N9. Calculate average
+function findAverage(array) {
+  // your code here
+  return 0;
+}
+findAverage([1,2,3,4])
