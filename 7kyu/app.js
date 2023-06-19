@@ -32,15 +32,15 @@
 
 // #Kata N4. Disemvowel Trolls
 //need to remove all vowels from string
-function disemvowel(str) {
-    newStr = ''
-    for (let i = 0; i< str.length; i++){
-        if (str[i] === 'o' || str[i] === 'a' || str[i] === 'i' || str[i] === 'u' || str[i] === 'e'  || str[i] === 'O' || str[i] === 'A' || str[i] === 'I' || str[i] === 'U' || str[i] === 'E')  continue
-        else
-            newStr += str[i]    
-    }
-    console.log(newStr);
+// function disemvowel(str) {
+//     newStr = ''
+//     for (let i = 0; i< str.length; i++){
+//         if (str[i] === 'o' || str[i] === 'a' || str[i] === 'i' || str[i] === 'u' || str[i] === 'e'  || str[i] === 'O' || str[i] === 'A' || str[i] === 'I' || str[i] === 'U' || str[i] === 'E')  continue
+//         else
+//             newStr += str[i]    
+//     }
+//     console.log(newStr);
 
-}
+// }
 
-console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"));
+// console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"));
