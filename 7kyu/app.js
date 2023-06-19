@@ -20,11 +20,6 @@
 // #Kata N3. Highest and Lowest
 // function highAndLow(numbers){
 //     newArr = numbers.split(' ')
-
-
-//     for (let i = 0; i < newArr.length; i++) {
-//         console.log(newArr[i]);
-//     }
 //     console.log(Math.max(...newArr));   
 //     console.log(Math.min(...newArr)); 
 //   }
@@ -33,13 +28,14 @@
 // #Kata N4. Disemvowel Trolls
 //need to remove all vowels from string
 // function disemvowel(str) {
-//     newStr = ''
-//     for (let i = 0; i< str.length; i++){
-//         if (str[i] === 'o' || str[i] === 'a' || str[i] === 'i' || str[i] === 'u' || str[i] === 'e'  || str[i] === 'O' || str[i] === 'A' || str[i] === 'I' || str[i] === 'U' || str[i] === 'E')  continue
-//         else
-//             newStr += str[i]    
-//     }
-//     console.log(newStr);
+//     // newStr = ''
+//     // for (let i = 0; i< str.length; i++){
+//     //     if (str[i] === 'o' || str[i] === 'a' || str[i] === 'i' || str[i] === 'u' || str[i] === 'e'  || str[i] === 'O' || str[i] === 'A' || str[i] === 'I' || str[i] === 'U' || str[i] === 'E')  continue
+//     //     else
+//     //         newStr += str[i]    
+//     // }
+//     // console.log(newStr);
+//     return str.replace(/[aeiou]/gi, '');
 
 // }
 
