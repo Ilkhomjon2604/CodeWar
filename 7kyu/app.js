@@ -59,3 +59,16 @@
 // }
 
 // console.log(noSpace('8 j 8   mBliB8g  imjB8B8  jl  B'));
+
+// #Kata N7. Sum of two lowest positive integers
+// function sumTwoSmallestNumbers(numbers) {  
+
+//     function compareNumbers(a, b) {
+//         return a - b;
+//       }
+//     let sum = numbers.sort(compareNumbers);
+//     console.log(sum);
+//     return sum[0] + sum[1]
+  
+//   }
+//   console.log(  sumTwoSmallestNumbers([5, 8, 12, 19, 22]));
