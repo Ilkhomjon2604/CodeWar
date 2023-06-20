@@ -80,17 +80,25 @@
 //   summation(2)
 
 
-// #Kata N10. Calculate average
-function findAverage(array) {
-  let count = 0;
-  if(array.length){
-    for(let i = 0; i<array.length; i++){
-      count+= array[i]
-    }
-  }else {
-    return 0
-  }
+// // #Kata N10. Calculate average
+// function findAverage(array) {
+//   let count = 0;
+//   if(array.length){
+//     for(let i = 0; i<array.length; i++){
+//       count+= array[i]
+//     }
+//   }else {
+//     return 0
+//   }
   
-  console.log(count / array.length) ;
-}
-findAverage([])
+//   console.log(count / array.length) ;
+// }
+// findAverage([])
+
+
+// // #Kata N11 .Remove First and Last Character
+// function removeChar(str){
+//   //You got this!
+//    return str.slice(1, -1)
+//  };
+// console.log(removeChar('eloquent'));   
