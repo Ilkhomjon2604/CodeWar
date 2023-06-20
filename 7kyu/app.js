@@ -8,6 +8,7 @@
 // console.log(newStr * 1);
 
 // / #Kata N2. Credit Card mask.
+
 // let str = 'Assalomu aleykum';
 // let text = ''
 
@@ -18,6 +19,7 @@
 // console.log(text + str.slice(-4));
 
 // #Kata N3. Highest and Lowest
+
 // function highAndLow(numbers){
 //     newArr = numbers.split(' ')
 //     console.log(Math.max(...newArr));   
@@ -35,8 +37,18 @@
 //     //         newStr += str[i]    
 //     // }
 //     // console.log(newStr);
+
 //     return str.replace(/[aeiou]/gi, '');
 
 // }
 
 // console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"));
+
+
+
+function descendingOrder(n) {
+   let num =  n.toString().split('').sort().reverse().join('') * 1 ;
+    console.log( num);
+}
+console.log(descendingOrder(5778784));
+
