@@ -81,3 +81,9 @@
 //     console.log(sum);
 // }
 // console.log(squareSum([0, 3, 4, 5]));
+
+// #Kata N9 .String repeat
+function repeatStr (n, s) {
+    return s.repeat(n);
+  }
+  console.log(repeatStr(5, "#"));
