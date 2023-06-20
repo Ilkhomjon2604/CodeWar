@@ -88,7 +88,7 @@
 //   }
 //   console.log(repeatStr(5, "#"));
 
-// #Kata N9 .find Shortest 
+// #Kata N10 .find Shortest 
 
 // function findShort(s){
 
@@ -99,3 +99,21 @@
 //     }
 
 //     console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+
+// #Kata N11 Exes and Ohs
+
+// function XO(str) {
+//     let x = 0;
+//   let o = 0;
+//   for( let i = 0; i< str.length; i++){
+    
+//     if (str[i] === 'o' || str[i] === 'O'){
+//       o++
+//     }else if (str[i] === 'x'|| str[i] === 'X'){
+//     x++
+//     }
+    
+//   }
+//   return o == x
+// }
+// console.log(XO('xo'));
