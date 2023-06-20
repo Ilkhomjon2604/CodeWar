@@ -72,3 +72,12 @@
   
 //   }
 //   console.log(  sumTwoSmallestNumbers([5, 8, 12, 19, 22]));
+
+// #Kata N8.Square(n) Sum
+// function squareSum(numbers){
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++)    sum += numbers[i] ** 2
+      
+//     console.log(sum);
+// }
+// console.log(squareSum([0, 3, 4, 5]));
