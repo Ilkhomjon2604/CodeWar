@@ -44,11 +44,18 @@
 
 // console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"));
 
+// #Kata N5. Descending Order
+
+// function descendingOrder(n) {
+//    let num =  n.toString().split('').sort().reverse().join('') * 1 ;
+//     console.log( num);
+// }
+// console.log(descendingOrder(5568));
 
 
-function descendingOrder(n) {
-   let num =  n.toString().split('').sort().reverse().join('') * 1 ;
-    console.log( num);
-}
-console.log(descendingOrder(5778784));
+// #Kata N6. Remove String Spaces
+// function noSpace(x){
+//     return x.split(' ').join('')
+// }
 
+// console.log(noSpace('8 j 8   mBliB8g  imjB8B8  jl  B'));
