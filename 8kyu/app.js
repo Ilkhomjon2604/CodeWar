@@ -130,8 +130,8 @@
 //   console.log(oddOrEven([1, 2]));
 
 // #Kata N15 Is he gonna survive?
-function hero(b, d){
-    return (b / d >= 2) ? true : false
-    }
+// function hero(b, d){
+//     return (b / d >= 2) ? true : false
+//     }
     
-    console.log(hero(7, 4));
+//     console.log(hero(7, 4));
