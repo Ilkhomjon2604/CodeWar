@@ -123,12 +123,15 @@
 // function oddOrEven(array) {
 //     let sum = 0
 //      for (let i = 0; i < array.length; i++ ) sum += array[i]
-   
-     
 //      if (sum % 2 == 0) return 'even'
 //      else  return 'odd'
-      
-     
 //   }
 
 //   console.log(oddOrEven([1, 2]));
+
+// #Kata N15 Is he gonna survive?
+function hero(b, d){
+    return (b / d >= 2) ? true : false
+    }
+    
+    console.log(hero(7, 4));
