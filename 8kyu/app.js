@@ -110,3 +110,8 @@
 //   return number>= 0 ?  -Math.abs(number) :  Math.abs(number)
 // }
 // console.log(opposite(12525220.3325));
+
+ // #Kata N13 Simple Fun #1: Seats in Theater
+//  let seatsInTheater = (nCols, nRows, col, row) =>  (nCols - (col -1)) * (nRows - row )
+
+//   console.log(seatsInTheater(60,100,60,1));
