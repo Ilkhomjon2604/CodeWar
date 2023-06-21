@@ -131,7 +131,17 @@
 
 // #Kata N15 Is he gonna survive?
 // function hero(b, d){
-//     return (b / d >= 2) ? true : false
+//     return (b / d >= 2) 
 //     }
     
 //     console.log(hero(7, 4));
+
+// #Kata N15 Is he gonna survive?
+// function fakeBin(x){
+//     let sum = ''
+//     x = x.split('')
+//     for( let i = 0; i < x.length; i++) x[i]>= 5 ? sum+= '1': sum+='0'
+//     return sum
+//   }
+
+// console.log(fakeBin('45385593107843568'));
