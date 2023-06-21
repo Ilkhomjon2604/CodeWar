@@ -115,3 +115,20 @@
 //  let seatsInTheater = (nCols, nRows, col, row) =>  (nCols - (col -1)) * (nRows - row )
 
 //   console.log(seatsInTheater(60,100,60,1));
+
+
+// #Kata N14 Odd or Even?
+
+
+function oddOrEven(array) {
+    let sum = 0
+     for (let i = 0; i < array.length; i++ ) sum += array[i]
+   
+     
+     if (sum % 2 == 0) return 'even'
+     else  return 'odd'
+      
+     
+  }
+
+  console.log(oddOrEven([1, 2]));
