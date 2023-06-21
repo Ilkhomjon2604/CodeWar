@@ -104,7 +104,6 @@
 // console.log(removeChar('eloquent'));   
 
 
-
  // #Kata N12 Opposite number
 // function opposite(number) {
 //   return number>= 0 ?  -Math.abs(number) :  Math.abs(number)
