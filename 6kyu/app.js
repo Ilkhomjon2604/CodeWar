@@ -13,25 +13,64 @@
 //   }
 //   console.log(spinWords("Seriously this is the last one"));
 
+// NOT DONE 
+
 // #Kata N2. Sum of Digits / Digital Root
 
-function digitalRoot(n) {
-  n = n.toString()
-  let sum = 0
+// function digitalRoot(n) {
+//   n = n.toString()
+//   let sum = 0
+//   let num = 0
 
-  do {
-    
-    for (let i = 0; i<n.length; i++){
-      sum+= +n[i]
-    }
-  }
-  while(sum.length >= 1)
-  
+//   for (let i=0; i<n.length; i++) sum+= +n[i]
+//    if(sum > 9 ){
+//     sum = sum.toString().split('');
+//     for (let j = 0; j<sum.length; j++){
+//       num+= +sum[j]
+//     }
+//    }
+
 
  
 
-  return sum
+//   return num
+// }
+
+// console.log( digitalRoot(9999999));
+
+
+
+// #Kata N2. Who likes it?
+function likes(names = 'no one') {
+//  if(!names.length){
+//   return `no one likes this`
+//  }else if(names.length === 1){
+//   return `${names[0]} likes this`
+//  }else if(names.length === 2){
+//   return `${names[0]} and ${names[1]} like this`
+//  }else if(names.length === 3){
+//   return `${names[0]}, ${names[1]} and ${names[2]} like this`
+//  }else {
+//   return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`
+//  }
+let x = names.length;
+switch (x) {
+  case 0:
+    return `no one likes this`
+    break;
+  case 1:
+    return `${names[0]} likes this`
+    break;
+    case 2:
+      return `${names[0]} and ${names[1]} like this`
+      break;
+    case 3:
+      return `${names[0]}, ${names[1]} and ${names[2]} like this`
+      break;
+  default:
+    return `${names[0]}, ${names[1]} and ${x - 2} others like this`
+}
 }
 
-console.log( digitalRoot(169));
 
+console.log(likes([ ]));
