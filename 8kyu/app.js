@@ -154,3 +154,16 @@
 //     else return"drink whisky" 
 //   };
 //   console.log(peopleWithAgeDrink(22));
+
+
+// #Kata N16 t Find Multiples of a Number
+// function findMultiples(integer, limit) {
+//     let arr = []
+//     for (let i = integer; i<= limit; i++){
+//    if ( i % integer ==0 ){
+//         arr.push(i)
+//         }
+//     }
+//     return arr
+//   }
+// console.log(findMultiples(5, 25));  

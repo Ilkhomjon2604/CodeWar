@@ -72,26 +72,15 @@
 
 
 
-// #Kata N3. Who likes it?
+// #Kata N3. Array.diff
 
 function arrayDiff(a, b) {
   let newArr = [];
 
-  if(b.length){
-    for (let i=0; i<a.length; i++){
-      for(let k=0; k<b.length; k++){
-        if(a[i]!== b[k]){
-      newArr.push(a[i])
-    }
-      }
+  if (b.length) {
+   
       
-    }
-    
-    
-    return newArr
-  }else{
-    return a
   }
- 
+  else return a
 }
-console.log(arrayDiff([1,2,3], []));
+console.log(arrayDiff([1, 2, 3], [1]));
