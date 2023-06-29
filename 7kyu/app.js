@@ -128,4 +128,12 @@
 // NOT DONE YET 
 
 
-// #Kata N12 
+// #Kata N13 Two to One (Longest)
+// function longest(s1, s2) {
+//     let arr = []
+//     let sum = s1+s2;
+//     for (let i=0; i<sum.length; i++) if(!arr.includes(sum[i]))  arr.push(sum[i])
+//     return arr.sort().join('')
+//   }
+
+//   console.log(longest("aretheyhere", "yestheyarehere"));
