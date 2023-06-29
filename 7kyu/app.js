@@ -121,7 +121,7 @@
 // #Kata N12 Regex validate PIN code
 
 // let validatePIN  = (pin) => {
-//    if (pin.length == 4 || pin.length == 6)  for(let i = 0; i < pin.length; i++ ) return   (pin[i] == /[a-z]/ig) ? true : false }
+//    if (pin.length == 4 || pin.length == 6)  for(let i = 0; i < pin.length; i++ ) return   (pin[i] !== /[a-z]/ig) ? true : false }
 //   console.log(validatePIN("0010"));
 
 

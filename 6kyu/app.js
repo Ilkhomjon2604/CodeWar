@@ -13,30 +13,10 @@
 //   }
 //   console.log(spinWords("Seriously this is the last one"));
 
-// NOT DONE 
-
-// #Kata N2. Sum of Digits / Digital Root
-
-// function digitalRoot(n) {
-//   n = n.toString()
-//   let sum = 0
-//   let num = 0
-
-//   for (let i=0; i<n.length; i++) sum+= +n[i]
-//    if(sum > 9 ){
-//     sum = sum.toString().split('');
-//     for (let j = 0; j<sum.length; j++){
-//       num+= +sum[j]
-//     }
-//    }
-//   return num
-// }
-
-// console.log( digitalRoot(9999999));
 
 
 
-// #Kata N3. Who likes it?
+// #Kata N2. Who likes it?
 // function likes(names = 'no one') {
 // //  if(!names.length){
 // //   return `no one likes this`
@@ -72,15 +52,20 @@
 
 
 
-// #Kata N3. Array.diff
+// #Kata N3. Convert string to camel case
 
-function arrayDiff(a, b) {
-  let newArr = [];
-
-  if (b.length) {
-   
-      
-  }
-  else return a
-}
-console.log(arrayDiff([1, 2, 3], [1]));
+// function toCamelCase(str){
+//   let letter = str.split(/-|_/gm);
+//   let sum= []
+//   for(let i=0; i<letter.length; i++){
+//     cap = letter[i].split('')
+//     if(i) cap[0] = cap[0].toUpperCase()
+//     cap = cap.join('');
+//     // str.replace(letter[i], cap) stupid chiziqchala kerak emas ekaaaan
+//     sum.push(cap)
+//   }
+//   console.log(str);
+//   // console.log(sum.join('_'));
+//     return sum.join('')
+// }
+// console.log(toCamelCase("the_stealth-warrior"));
