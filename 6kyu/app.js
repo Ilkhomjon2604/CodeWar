@@ -69,3 +69,5 @@
 //     return sum.join('')
 // }
 // console.log(toCamelCase("the_stealth-warrior"));
+
+// #Kata N4
