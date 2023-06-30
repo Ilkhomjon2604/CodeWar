@@ -70,4 +70,13 @@
 // }
 // console.log(toCamelCase("the_stealth-warrior"));
 
-// #Kata N4
+// #Kata N4 Bit Counting
+
+// var countBits = function(n) {
+//     let binary = n.toString(2)
+//     res = 0
+//    for (let i=0;i<binary; i++) binary[i] >0 ? res++ : res
+//    return res
+//   };
+
+// console.log(countBits(9));
