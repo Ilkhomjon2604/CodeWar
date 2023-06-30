@@ -137,3 +137,13 @@
 //   }
 
 //   console.log(longest("aretheyhere", "yestheyarehere"));
+
+
+// #Kata N13 Reverse words
+// function reverseWords(str) {
+//     let word = str.split(' ')
+//     for(let i = 0; i< word.length; i++) word[i] = word[i].split('').reverse().join('')
+//     word = word.join(' ')
+//     return word
+//   }
+//   console.log(reverseWords('The quick brown fox jumps over the lazy dog.'));
