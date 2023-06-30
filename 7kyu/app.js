@@ -139,7 +139,7 @@
 //   console.log(longest("aretheyhere", "yestheyarehere"));
 
 
-// #Kata N13 Reverse words
+// #Kata N14 Reverse words
 // function reverseWords(str) {
 //     let word = str.split(' ')
 //     for(let i = 0; i< word.length; i++) word[i] = word[i].split('').reverse().join('')
@@ -147,3 +147,17 @@
 //     return word
 //   }
 //   console.log(reverseWords('The quick brown fox jumps over the lazy dog.'));
+
+
+// #Kata N15 Get the Middle Character
+// function getMiddle(s){
+//     res = []
+//     if 
+//         (s.length % 2 == 0)  res.push(s[s.length / 2], s[s.length / 2 - 1] )      
+//     else
+//         res.push(s[Math.floor(s.length / 2)])
+// return res.join('')
+//     }
+
+//     console.log(getMiddle("test"));
+//     console.log(getMiddle("testing"));
