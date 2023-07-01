@@ -161,3 +161,19 @@
 
 //     console.log(getMiddle("test"));
 //     console.log(getMiddle("testing"));
+
+// #Kata N15 Jaden Casing Strings
+
+// function toJadenCase (str) {
+
+//     let word = str.split(' ');
+//     for (let i = 0; i < word.length; i++){
+//       word[i] = word[i].split('');
+//       word[i][0] = word[i][0].toUpperCase();
+//       word[i] = word[i].join('');
+//     }
+  
+//     return word.join(' ')
+//   };
+
+//   console.log(toJadenCase("How can mirrors be real if our eyes aren't real"));
