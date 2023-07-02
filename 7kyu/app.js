@@ -162,7 +162,7 @@
 //     console.log(getMiddle("test"));
 //     console.log(getMiddle("testing"));
 
-// #Kata N15 Jaden Casing Strings
+// #Kata N16 Jaden Casing Strings
 
 // function toJadenCase (str) {
 
@@ -177,3 +177,13 @@
 //   };
 
 //   console.log(toJadenCase("How can mirrors be real if our eyes aren't real"));
+
+// #Kata N16 List Filtering
+
+// function filter_list(l) {
+//     newarr = []
+//     for (i= 0; i<l.length; i++)  if( typeof l[i] =='number')  newarr.push(l[i])
+//     return newarr
+//   }
+
+//   console.log(filter_list([1,2,'aasf','1','123',123]));
