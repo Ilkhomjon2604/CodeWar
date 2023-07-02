@@ -108,3 +108,18 @@
   
 //   }
 //   console.log(digitalRoot(1698979));
+
+// #Kata N5 Find The Parity Outlier
+
+// function findOutlier(int){
+//     let odd = [];
+//     let even = [];
+//     for (let i = 0; i<int.length; i++ ) {
+//         if (int[i] % 2== 0)  even.push(int[i])   
+//         else odd.push(int[i])
+//     }
+   
+//     return odd.length > even.length ? Number(even) : Number(odd)
+//   }
+
+// console.log(findOutlier([1, 2, 3]));
