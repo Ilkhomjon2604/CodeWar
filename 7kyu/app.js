@@ -187,3 +187,20 @@
 //   }
 
 //   console.log(filter_list([1,2,'aasf','1','123',123]));
+
+// #Kata N17 Mumbling
+
+// function accum(s) {
+// 	s = s.split('')
+//     for (let i = 0; i < s.length; i++){
+//     s[i]= s[i].repeat(i+1).toLowerCase()
+
+//         s[i]= s[i].split('')
+//         s[i][0]= s[i][0].toUpperCase()
+//         s[i]= s[i].join('')       
+//     }
+//     s = s.join('-')
+//     return s
+// }
+
+// console.log(accum("ZpglnRxqenU"));
