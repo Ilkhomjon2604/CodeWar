@@ -80,3 +80,31 @@
 //   };
 
 // console.log(countBits(9));
+
+    // #Kata N5 Sum of Digits / Digital Root
+
+// function digitalRoot(n) {
+//         let sum = 0;
+//         let sum1 = 0;
+//         let sum2 = 0;
+//         n = n.toString()
+//         for(i = 0; i<n.length; i++) sum += +n[i]
+ 
+ 
+
+//     if ( sum > 0 ){
+//         console.log('hey');
+//         n = sum;
+//         n = n.toString()
+//         for(i = 0; i<n.length; i++) sum1 += +n[i]
+//         if (sum1 > 9){
+//             n = sum1;
+//         n = n.toString()
+//         for(i = 0; i<n.length; i++) sum2 += +n[i]
+//         return sum2
+//         }else return sum1
+
+//     }else return sum
+  
+//   }
+//   console.log(digitalRoot(1698979));
