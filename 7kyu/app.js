@@ -204,3 +204,16 @@
 // }
 
 // console.log(accum("ZpglnRxqenU"));
+
+
+
+function isIsogram(str){
+    let obj = {};
+    let arr = str.split('')
+    arr.forEach(val => obj[val] = (obj[val] || 0) + 1)
+    let str1 = Object.values(obj);
+    return !str1.includes(2)
+   
+  }
+
+  console.log(isIsogram(""));

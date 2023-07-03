@@ -123,3 +123,18 @@
 //   }
 
 // console.log(findOutlier([1, 2, 3]));
+
+// #Kata N5  Find the odd int
+function doTest(A) {
+  let obj = {};
+  A.forEach(val => obj[val] = (obj[val] || 0) + 1);
+    let length = Object.values(obj).length
+    console.log(length);
+  for ( let i = 0; i < length ; i++){
+    console.log(i);
+    if (obj[i] % 2 !== 0 ) return obj[i] 
+    
+  }
+}
+
+console.log(doTest([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]));
