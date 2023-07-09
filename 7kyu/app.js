@@ -208,12 +208,18 @@
 
 
 function isIsogram(str){
-    let obj = {};
-    let arr = str.split('')
-    arr.forEach(val => obj[val] = (obj[val] || 0) + 1)
-    let str1 = Object.values(obj);
-    return !str1.includes(2)
-   
-  }
+  let obj = {};
+  let arr = str.split('')
+  arr.forEach(val => obj[val] = (obj[val] || 0) + 1)
+  for (keys in obj){
+    // console.log(obj[keys]);
+    console.log(keys);
+    if(obj[keys] > 1){
+    return false
+    }
 
-  console.log(isIsogram(""));
+  }
+return true
+}
+
+  console.log(isIsogram("aba"));

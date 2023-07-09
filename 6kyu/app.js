@@ -125,10 +125,23 @@
 // console.log(findOutlier([1, 2, 3]));
 
 // #Kata N5  Find the odd int
-function doTest(a) {
-  let obj = {};
-  a.forEach(val => obj[val] = (obj[val] || 0) + 1);
-  for (const keys in obj)  if(obj[keys] % 2 !== 0) return keys
-}
+// function doTest(a) {
+//   let obj = {};
+//   a.forEach(val => obj[val] = (obj[val] || 0) + 1);
+//   for (const keys in obj)  if(obj[keys] % 2 !== 0) return keys
+// }
 
-console.log(doTest([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]));
+// console.log(doTest([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]));
+
+
+// #Kata N6 Counting Duplicates
+
+// function duplicateCount(text){
+//   let obj = {};
+//   let sum = 0
+//   text.toLowerCase().split('').forEach(val => obj[val] = (obj[val] || 0) + 1);
+//   for (const key in obj) if(obj[key]>1) sum++
+//   return sum
+// }
+
+// console.log(duplicateCount("aabBcde"));
