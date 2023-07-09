@@ -81,7 +81,7 @@
 
 // console.log(countBits(9));
 
-    // #Kata N5 Sum of Digits / Digital Root
+// #Kata N5 Sum of Digits / Digital Root
 
 // function digitalRoot(n) {
 //         let sum = 0;
@@ -89,8 +89,8 @@
 //         let sum2 = 0;
 //         n = n.toString()
 //         for(i = 0; i<n.length; i++) sum += +n[i]
- 
- 
+
+
 
 //     if ( sum > 0 ){
 //         console.log('hey');
@@ -105,7 +105,7 @@
 //         }else return sum1
 
 //     }else return sum
-  
+
 //   }
 //   console.log(digitalRoot(1698979));
 
@@ -118,23 +118,17 @@
 //         if (int[i] % 2== 0)  even.push(int[i])   
 //         else odd.push(int[i])
 //     }
-   
+
 //     return odd.length > even.length ? Number(even) : Number(odd)
 //   }
 
 // console.log(findOutlier([1, 2, 3]));
 
 // #Kata N5  Find the odd int
-function doTest(A) {
+function doTest(a) {
   let obj = {};
-  A.forEach(val => obj[val] = (obj[val] || 0) + 1);
-    let length = Object.values(obj).length
-    console.log(length);
-  for ( let i = 0; i < length ; i++){
-    console.log(i);
-    if (obj[i] % 2 !== 0 ) return obj[i] 
-    
-  }
+  a.forEach(val => obj[val] = (obj[val] || 0) + 1);
+  for (const keys in obj)  if(obj[keys] % 2 !== 0) return keys
 }
 
-console.log(doTest([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]));
+console.log(doTest([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]));
