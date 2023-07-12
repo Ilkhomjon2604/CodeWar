@@ -167,3 +167,13 @@
 //     return arr
 //   }
 // console.log(findMultiples(5, 25));  
+
+// #Kata N17 Count the Monkeys!
+// function monkeyCount(n) {
+//     let res = [];
+//       for(let i = 1; i<n+1; i++){
+//         res.push(i)
+//       }
+//       return res
+//     }
+// console.log(monkeyCount(5));
