@@ -177,3 +177,12 @@
 //       return res
 //     }
 // console.log(monkeyCount(5));
+
+// #Kata N17 Add Length
+// function addLength(str) {
+//     array = str.split(' ')
+//     const map1 = array.map(x => x += ` ${x.length}`);
+//     return map1
+//     }
+
+//     console.log(addLength('you will win'));
