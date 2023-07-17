@@ -189,7 +189,7 @@
 
 // #Kata18 Beginner - Lost Without a Map
 
-function maps(x){
-    return x.map(value => value * 2)
-  }
-  console.log(maps([1, 2, 3]));
+// function maps(x){
+//     return x.map(value => value * 2)
+//   }
+//   console.log(maps([1, 2, 3]));
