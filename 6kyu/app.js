@@ -156,3 +156,16 @@
 
 
 //   console.log(solution(10));
+
+// let chars = ['A', 'B', 'A', 'C', 'B'];
+
+// let uniqueChars = [];
+// chars.forEach((element) => {
+//     if (!uniqueChars.includes(element)) {
+//         uniqueChars.push(element);
+//     }
+// });
+
+// console.log(uniqueChars);
+
+// function arrayDiff(a, b) {
