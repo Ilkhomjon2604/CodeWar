@@ -194,7 +194,7 @@
 //   }
 //   console.log(maps([1, 2, 3]));
 
-// #Kata18 raining JS #2: Basic data types--Number
+// #Kata19 training JS #2: Basic data types--Number
 
 // let v1 = 50,
 //     v2 = 100,
@@ -232,3 +232,11 @@
 //   let a = v2, //set number value to a
 //       b =  v6; //set number value to b
 //   return a % b;}
+
+
+// #Kata20 Training JS #5: Basic data types--Object
+
+// function animal(obj){
+//     return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+//   }
+//   console.log(animal({name:"dog",legs:4,color:"white"}));
