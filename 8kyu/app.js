@@ -240,3 +240,18 @@
 //     return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 //   }
 //   console.log(animal({name:"dog",legs:4,color:"white"}));
+
+// console.log( );
+
+// #Kata20 Training JS #9:: loop statement --while and do..while
+// function padIt(str,n){
+//     for (let i = 0; i< n; i++){
+//       if (i % 2 == 0){
+//         str = '*'+ str
+//       }else{
+//         str +='*'
+//       }
+//     }
+//   return str
+// }
+// console.log(padIt("a",5));
