@@ -269,3 +269,13 @@
   
 // }
 // console.log(colorOf(1,2,3));
+
+
+// #Kata23 Training JS #15:: compare arr elements
+
+// function howManySmaller(arr,n){
+//   let fixed = arr.map(value => value.toFixed(2))
+//   return fixed.filter(val => val < n).length
+  
+// }
+// console.log(howManySmaller([1.234,1.235,1.228],1.24));
