@@ -243,7 +243,7 @@
 
 // console.log( );
 
-// #Kata20 Training JS #9:: loop statement --while and do..while
+// #Kata21 Training JS #9:: loop statement --while and do..while
 // function padIt(str,n){
 //     for (let i = 0; i< n; i++){
 //       if (i % 2 == 0){
@@ -255,3 +255,17 @@
 //   return str
 // }
 // console.log(padIt("a",5));
+
+// #Kata22 Training JS #14:: lnumbers to color code
+// function colorOf(r,g,b){
+//  let arr = [r, g, b];
+//  let newArr = []
+//  return '#'+arr.map(val => {
+//   val = val.toString(16)
+//   if(val.length <2){
+//     return '0'+val
+//   }else return val
+//  }).join('')
+  
+// }
+// console.log(colorOf(1,2,3));
