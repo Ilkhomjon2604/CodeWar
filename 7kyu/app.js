@@ -207,19 +207,30 @@
 
 
 
-function isIsogram(str){
-  let obj = {};
-  let arr = str.split('')
-  arr.forEach(val => obj[val] = (obj[val] || 0) + 1)
-  for (keys in obj){
-    // console.log(obj[keys]);
-    console.log(keys);
-    if(obj[keys] > 1){
-    return false
-    }
+// function isIsogram(str){
+//   let obj = {};
+//   let arr = str.split('')
+//   arr.forEach(val => obj[val] = (obj[val] || 0) + 1)
+//   for (keys in obj){
+//     // console.log(obj[keys]);
+//     console.log(keys);
+//     if(obj[keys] > 1){
+//     return false
+//     }
 
-  }
-return true
-}
+//   }
+// return true
+// }
 
-  console.log(isIsogram("aba"));
+//   console.log(isIsogram("aba"));
+
+
+// #Kata N18 Help the Fruit Guy
+// function removeRotten(bagOfFruits){
+
+//   return (bagOfFruits || []).map( val => {
+//       return (val.includes('rotten')) ? val.slice(6).toLowerCase() : val
+//   })
+// }
+
+// console.log(removeRotten(null));
