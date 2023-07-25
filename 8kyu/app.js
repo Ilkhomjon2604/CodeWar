@@ -301,3 +301,14 @@
 
 // }
 // console.log(firstToLast("ababc","a"));
+
+
+// #Kata N26 Training JS #18: Methods of String object--concat() split() and its good friend join()
+
+// function splitAndMerge(string, separator) {
+//   let words = string.split(' ');
+//   let letters = words.map(val => val.split('').join(separator))
+//   return letters.join(' ')
+// }
+
+// console.log(splitAndMerge("My name is John","."));
