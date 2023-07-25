@@ -292,3 +292,12 @@
 //   }
 
 //   console.log(cutIt(["codewars","javascript","java"]));
+
+
+// #Kata N25 Training JS #17: Methods of String object--indexOf(), lastIndexOf() and search()
+// function firstToLast(str,c){
+//   return  (str.indexOf(c) >= 0) ? str.lastIndexOf(c) - str.indexOf(c) : str.indexOf(c)
+  
+
+// }
+// console.log(firstToLast("ababc","a"));
