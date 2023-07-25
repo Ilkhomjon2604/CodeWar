@@ -279,3 +279,16 @@
   
 // }
 // console.log(howManySmaller([1.234,1.235,1.228],1.24));
+
+
+
+// #Kata N24 Training JS #16: Methods of String object--slice(), substring() and substr()
+// function cutIt(arr){
+//     let newArr = [];
+//     arr.map(val => newArr.push(val.length))
+//     let min = Math.min(...newArr);
+//     return arr.map(value => value.slice(0, min))    
+  
+//   }
+
+//   console.log(cutIt(["codewars","javascript","java"]));

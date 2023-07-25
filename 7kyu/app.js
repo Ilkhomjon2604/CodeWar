@@ -234,3 +234,10 @@
 // }
 
 // console.log(removeRotten(null));
+
+
+// #Kata N18 Help the Fruit Guy
+function cutIt(arr){
+    //coding here...
+    
+  }
