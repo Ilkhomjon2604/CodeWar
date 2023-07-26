@@ -312,3 +312,35 @@
 // }
 
 // console.log(splitAndMerge("My name is John","."));
+
+
+// #Kata N27 Training JS #19: Methods of String object--toUpperCase() toLowerCase() and replace()
+
+// function alienLanguage(str){
+//   str = str.split(' ')
+//  return  str.map(val => {
+//      val = val.toUpperCase().split('')
+//      return val.map(value => value.replace(value.at[1], '#'))
+//   })
+
+// }
+// console.log(alienLanguage("My name is John"));
+
+// 19 - 20 is not done !!! 
+
+
+// #Kata N28 Training JS #21: Methods of String object--trim() and the string template
+
+function fiveLine(s){
+  s = s.trim()
+  for(let i=1 ; i< 5; i++){
+    if(i == 1){
+      s = s.repeat(i)
+    }else{
+      s = 'n' + s.repeat(i)
+    }
+  }
+  return s
+}
+
+console.log(fiveLine("   a"));
