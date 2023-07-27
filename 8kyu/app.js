@@ -331,16 +331,17 @@
 
 // #Kata N28 Training JS #21: Methods of String object--trim() and the string template
 
-function fiveLine(s){
-  s = s.trim()
-  for(let i=1 ; i< 5; i++){
-    if(i == 1){
-      s = s.repeat(i)
-    }else{
-      s = 'n' + s.repeat(i)
-    }
-  }
-  return s
-}
+// function fiveLine(s){
+//   s = s.trim()
+//   let str = []
+//   for(let i=1 ; i<= 5; i++){
+//     if(i == 1){
+//         str.push(s.repeat(i))
+//     }else{
+//       str.push(`n${s.repeat(i)}`)
+//     }
+//   }
+//   return str.join('\\')
+// }
 
-console.log(fiveLine("   a"));
+// console.log(fiveLine("   a"));
