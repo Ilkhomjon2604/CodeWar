@@ -351,10 +351,10 @@
 
 
 // #Kata N29 Training JS #24: methods of arrayObject---splice() and slice()
-function threeInOne(arr){
-  let newArr = [];
-  for (let i = 0; i< arr.length; i++)  if(i % 3 == 0) newArr.push(arr[i] + arr[i+1] + arr[i+2])    
-  return newArr
-}
+// function threeInOne(arr){
+//   let newArr = [];
+//   for (let i = 0; i< arr.length; i++)  if(i % 3 == 0) newArr.push(arr[i] + arr[i+1] + arr[i+2])    
+//   return newArr
+// }
 
-console.log(threeInOne( [1,2,3,4,5,6] ));
+// console.log(threeInOne( [1,2,3,4,5,6] ));
