@@ -358,3 +358,11 @@
 // }
 
 // console.log(threeInOne( [1,2,3,4,5,6] ));
+
+
+
+// #Kata N30 Find the capitals
+var capitals = function (word) {
+	// Write your code here
+};
+console.log(capitals('CodEWaRs'));
