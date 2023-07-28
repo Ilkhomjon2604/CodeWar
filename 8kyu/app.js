@@ -362,9 +362,9 @@
 
 
 // #Kata N30 Find the capitals
-var capitals = function (word) {
-	let arr = [];
-    word.split('').filter((val, i) =>{ if(val == val.toUpperCase()) arr.push(i)})
-    return arr
-};
-console.log(capitals('CodEWaRs'));
+// var capitals = function (word) {
+// 	let arr = [];
+//     word.split('').filter((val, i) =>{ if(val == val.toUpperCase()) arr.push(i)})
+//     return arr
+// };
+// console.log(capitals('CodEWaRs'));
