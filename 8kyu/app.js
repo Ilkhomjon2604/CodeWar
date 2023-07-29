@@ -377,7 +377,7 @@
 //     if(o == '+')return +v1 + +v2
 //     else if( o == '-') return v1 - v2
 //     else if ( o == '*') return v1 * v2
-//     else return v1 / v2
+//     else return v1 / v2 
 // }
 
 // console.log(basicOp('-', 15, 18));
