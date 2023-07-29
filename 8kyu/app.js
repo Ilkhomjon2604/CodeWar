@@ -368,3 +368,16 @@
 //     return arr
 // };
 // console.log(capitals('CodEWaRs'));
+
+
+// #Kata N31 Basic Mathematical Operations
+
+// function basicOp(o, v1, v2)
+// {
+//     if(o == '+')return +v1 + +v2
+//     else if( o == '-') return v1 - v2
+//     else if ( o == '*') return v1 * v2
+//     else return v1 / v2
+// }
+
+// console.log(basicOp('-', 15, 18));
