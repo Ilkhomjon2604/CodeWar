@@ -384,8 +384,22 @@
 
 // #Kata N31 Regex count lowercase letters
 
-function lowercaseCount(str){
-    return str.split('').filter((val => val == /[a-z]+/g ))
-}
+// function lowercaseCount(str){
+//     return str.split('').filter(val=> val == val.toLowerCase())
+// }
 
-console.log(lowercaseCount("abcABC123!@€£#$%^&*()_-+=}{[]|\':;?/>.<,~"));
+// console.log(lowercaseCount("abcABC123!@€£#$%^&*()_-+=}{[]|\':;?/>.<,~"));
+
+// wroong
+
+
+// function pipeFix(numbers){
+//     let arr = []
+//     for(let i = numbers[0]; i <= numbers[numbers.length-1]; i++){
+//         arr.push(i)
+//     }
+//     let res =  new Set(numbers.concat(arr))
+//     return Array.from(res).sort((a,b) => a - b)
+// }
+
+// console.log(pipeFix([1,2,3,5,6,8,9]));
